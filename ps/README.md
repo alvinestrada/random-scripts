@@ -2,4 +2,5 @@
 
 | Script Name   | Description |
 | --- | --- |
-| Enable-Proxy.ps1 |  Lazy way of enablind/disabling windows proxy, if you're like me I switch between Office and WFH |
+| Enable-Proxy.ps1 |  Lazy way to disable or enable web proxy in your window machine.|
+| Enable-PS-Execution | To enable powershell execution |
