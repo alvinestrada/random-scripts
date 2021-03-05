@@ -12,8 +12,8 @@ The objective is that you can easily move your SQL Job Agent configuration from 
 #>
 $SQLInstance = "dev/sql-instance"
 Get-DbaAgentJob -SqlInstance $SQLInstance | Where-Object { $_.Name -notlike '*Filter String*' -and
-                                                           $_.Name -eq 'dev' -and
-                                                           } | Export-DbaScript -Path "c:\Test\<local folder>\"
+                                                           $_.Name -eq 'dev' 
+                                                        } | Export-DbaScript -Path "c:\Test\<local folder>\"
 
 # When you want to replace certain text within a Job Agent                                                           
 # | Export-DbaScript -Passthru | 
