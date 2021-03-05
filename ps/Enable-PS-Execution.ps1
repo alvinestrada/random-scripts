@@ -10,6 +10,7 @@
 
 #>
 
+
 Set-ExecutionPolicy AllSigned -Scope CurrentUser -Force
 Set-ExecutionPolicy Default -Scope CurrentUser -Force
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
