@@ -1,6 +1,3 @@
-USE [Process_Control_Data]
-GO
-
 IF OBJECT_ID('dbo.Generate_Merge_SQL') IS NOT NULL
 BEGIN
 	DROP PROCEDURE dbo.Generate_Merge_SQL
@@ -144,11 +141,6 @@ PRINT ''CREATE PROCEDURE dbo.Merge_' + @source_table_name + N''';
 GO
 
 CREATE PROCEDURE dbo.Merge_' + @source_table_name + N' @batch_id INT
---
--- This script is AUTO generated
--- If you encountered any problem please contact alvinestrada@metricon.com.au  
--- 
---
 AS
 DECLARE @data_load TABLE (
 	load_target_table VARCHAR(150),
