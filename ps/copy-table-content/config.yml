@@ -1,11 +1,3 @@
-env: DEV
-pcd_server_name: VM-DWHSQLDEV04   
-pcd_database: Process_Control_Data
-pcd_user: ssis_user
-pcd_password: ssis_user
-job_agent_server_name: VM-DWHSQLDEV04
-job_name: 999_Source_DataLoad_to_MID_Dev
-log_location: C:\Users\AlvinEstrada\Codes\logs
 #
 # Below are use to fetch the data base on the date range
 # dd, Day
